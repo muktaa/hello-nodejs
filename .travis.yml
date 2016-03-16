@@ -4,3 +4,7 @@ node_js:
   
 before_script:
   - cd src && npm install
+
+after_success:
+  - cd ..
+  - docker build -t muktaa/hello-nodejs .

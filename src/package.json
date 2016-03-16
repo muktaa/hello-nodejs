@@ -1,9 +1,9 @@
 {
-  "name": "docker-centos-hello",
+  "name": "hello-nodejs",
   "private": true,
   "version": "0.0.1",
   "description": "Node.js Hello world app on CentOS using docker",
-  "author": "Mukta Aphale <devops@whitehedge.com>",
+  "author": "Mukta Aphale <aMukta@gmail.com>",
   "dependencies": {
     "express": "3.2.4"
   }
