@@ -6,5 +6,3 @@ before_script:
   - cd src && npm install
 
 script:
-  - cd ..
-  - docker build -t muktaa/hello-nodejs .
